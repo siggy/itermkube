@@ -1,4 +1,4 @@
-## Display Kubernetes context in iTerm2
+## Kubernetes Context in iTerm2's Status Bar
 
 This guide demonstrates displaying the current Kubernetes context in iTerm2's
 Status Bar.
