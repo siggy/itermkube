@@ -1,0 +1,41 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1, h2, h3, h4, h5, h6, body {
+  color: #111;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.buttons.github {
+  font-size: 14px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+img {
+  padding: 0px;
+}
