@@ -1,7 +1,7 @@
 title: "iTermKube"
 email: andrew@sig.gy
 description: >
-  Display Kubernetes context in iTerm2
+  Kubernetes Context in iTerm2's Status Bar
 url: "https://sig.gy"
 baseurl: "/itermkube"
 markdown: kramdown
