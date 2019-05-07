@@ -1,0 +1,16 @@
+title: "iTermKube"
+email: andrew@sig.gy
+description: >
+  Display Kubernetes context in iTerm2
+url: "https://sig.gy"
+baseurl: "/itermkube"
+markdown: kramdown
+theme: jekyll-theme-dinky
+github_username:  siggy
+twitter_username: siggy
+google_analytics:
+github:
+  is_project_page: true
+  owner_name: siggy
+  owner_url: https://github.com/siggy
+  repository_url: https://github.com/siggy/itermkube
