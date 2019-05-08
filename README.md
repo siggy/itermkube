@@ -3,6 +3,8 @@
 This guide demonstrates displaying the current Kubernetes context in iTerm2's
 Status Bar.
 
+Note: This requires iTerm2 3.3+.
+
 ![iTerm Kube](assets/images/itermkube.png "iTerm Kube")
 
 ### Install iTerm2 Shell Integration
