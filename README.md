@@ -27,7 +27,7 @@ function iterm2_print_user_vars() {
 }
 ```
 
-If you want to display the namespace in your Status Bar as well, add this function instead:
+If you want to display the current namespace in your Status Bar as well, add this function instead:
 ```bash
 function iterm2_print_user_vars() {
   iterm2_set_user_var kubecontext $(kubectl config current-context):$(kubectl config view --minify --output 'jsonpath={..namespace}')
