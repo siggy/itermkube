@@ -27,6 +27,13 @@ function iterm2_print_user_vars() {
 }
 ```
 
+The above command can be slow if the internet connection is slow. An alternative is to uuse this function:
+```
+function iterm2_print_user_vars() {
+  awk '/^current-context:/{print $2;exit;}' <~/.kube/config
+}
+```
+
 If you want to display the current namespace in your Status Bar as well, add this function instead:
 ```bash
 function iterm2_print_user_vars() {
