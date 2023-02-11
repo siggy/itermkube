@@ -30,7 +30,7 @@ function iterm2_print_user_vars() {
 The above command can be slow if the internet connection is slow. An alternative is to use this function:
 ```
 function iterm2_print_user_vars() {
-  awk '/^current-context:/{print $2;exit;}' <~/.kube/config
+  iterm2_set_user_var kubecontext $(awk '/^current-context:/{print $2;exit;}' <~/.kube/config)
 }
 ```
 
